@@ -16,7 +16,7 @@ This package will not include example files or pre made assets. It will only con
 	- Fastclick 0.6.10
 	- Font Awesome 4.0.3
 	- Foundation 5.0.2
-	- HTML5Shiv 1.4.2
+	- HTML5Shiv 3.7.0
 	- jQuery 1.10.2
 	- Respond 1.4.2
 - Pre setup composer packages
