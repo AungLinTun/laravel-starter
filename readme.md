@@ -19,6 +19,7 @@ This package will not include example files or pre made assets. It will only con
 	- HTML5Shiv 3.7.0
 	- jQuery 1.10.2
 	- Respond 1.4.2
+	- Animate.css 3.0.0
 - Pre setup composer packages
 	- Laravel 4.1
 	- Way/Generators dev-master
