@@ -57,8 +57,6 @@ module.exports = function (grunt) {
 			app: {
 				files: {
 					'public/javascripts/application.min.js': [
-						'app/assets/javascripts/util/array.js',
-						'app/assets/javascripts/util/string.js',
 						'app/assets/javascripts/application.js'
 					]
 				}
@@ -69,7 +67,8 @@ module.exports = function (grunt) {
 					'public/javascripts/jquery-1.10.2.min.js': 'bower_components/jquery/jquery.js',
 					'public/javascripts/vendor.min.js': [
 						'bower_components/foundation/js/vendor/custom.modernizr.js',
-						'bower_components/fastclick/lib/fastclick.js'
+						'bower_components/fastclick/lib/fastclick.js',
+						'bower_components/echojs/dist/echo.min.js'
 					],
 					'public/javascripts/polyfill.min.js': [
 						'bower_components/html5shiv/dist/html5shiv.js',

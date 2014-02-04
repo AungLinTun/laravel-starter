@@ -8,7 +8,6 @@
 		"html5shiv": "3.7.0",
 		"respond": "1.4.2",
 		"fastclick": "0.6.10",
-		"animate.css": "3.0.0",
 		"echojs": "1.5.0"
 	},
 	"resolutions": {
