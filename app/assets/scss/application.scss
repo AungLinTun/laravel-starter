@@ -2,22 +2,33 @@
  * 
  */
 
-// Vendor imports
-@import "../../../bower_components/foundation/scss/normalize";
-@import "../../../bower_components/foundation/scss/foundation";
-@import "../../../bower_components/foundation/scss/foundation/settings";
-@import "../../../bower_components/animate.css/animate.css";
+/**
+ * Vendor
+ */
+@import "vendor/external";
 
-@import "variables";
-@import "mixins";
+/**
+ * Config
+ */
+@import "variables/colors";
+@import "variables/defaults";
 
-// Components imports
-@import "components/typography";
-@import "components/buttons";
+/**
+ * Mixins
+ */
+@import "mixins/position";
+
+// Modules imports
+@import "modules/body";
+@import "modules/typography";
+@import "modules/buttons";
+@import "modules/inputs";
+@import "modules/lists";
 
 // Layout imports
-@import "layout/body";
-@import "layout/header";
-@import "layout/footer";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/sidebar";
+@import "partials/footer";
 
 // ...
