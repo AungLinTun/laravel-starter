@@ -10,7 +10,6 @@
 
 	<title>@yield('title', 'Website')</title>
 
-	<link rel="stylesheet" href="{{ asset('stylesheets/vendor.css') }}">
 	<link rel="stylesheet" href="{{ asset('stylesheets/application.css') }}">
 
 	<link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
