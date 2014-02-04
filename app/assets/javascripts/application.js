@@ -14,6 +14,12 @@
 	// FastClick
 	FastClick.attach(document.body);
 
+	// EchoJS
+	Echo.init({
+		offset:   100,
+		throttle: 250
+	});
+
 	// ...
 
 })(jQuery, window, document);
