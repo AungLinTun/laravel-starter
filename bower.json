@@ -1,5 +1,5 @@
 {
-	"name": "laravel-boilerplate",
+	"name": "laravel-starter",
 	"version": "1.0.0",
 	"dependencies": {
 		"jquery": "1.10.2",
