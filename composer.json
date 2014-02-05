@@ -1,7 +1,7 @@
 {
-	"name": "jspekken/laravel-boilerplate",
+	"name": "crafthaus/laravel-starter",
 	"description": "The Laravel Framework boilerplate.",
-	"keywords": ["framework", "laravel", "boilerplate", "grunt", "bower", "node", "npm"],
+	"keywords": ["framework", "laravel", "boilerplate", "starter", "grunt", "bower", "node", "npm"],
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.1.*",
