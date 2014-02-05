@@ -8,21 +8,21 @@ This package will not include example files or pre made assets. It will only con
 
 ## Included goodies
 - Pre setup Gruntfile and npm dependencies
-	- grunt 0.4.1
-	- grunt-contrib-watch 0.5.3
-	- grunt-contrib-uglify 0.2.7
-	- grunt-contrib-imagemin 0.4.0
+	- [grunt 0.4.1](http://gruntjs.com/)
+	- [grunt-contrib-watch 0.5.3](https://github.com/gruntjs/grunt-contrib-watch)
+	- [grunt-contrib-uglify 0.2.7](https://github.com/gruntjs/grunt-contrib-uglify)
+	- [grunt-contrib-imagemin 0.4.0](https://github.com/gruntjs/grunt-contrib-imagemin)
 - Pre setup bower dependencies
-	- Fastclick 0.6.10
-	- Font Awesome 4.0.3
-	- Foundation 5.0.2
-	- HTML5Shiv 3.7.0
-	- jQuery 1.10.2
-	- Respond 1.4.2
-	- EchoJS 1.5.0
+	- [Fastclick 0.6.10](https://github.com/ftlabs/fastclickm)
+	- [Font Awesome 4.0.3](http://fortawesome.github.io/Font-Awesome/)
+	- [Foundation 5.0.2](http://foundation.zurb.com/)
+	- [HTML5Shiv 3.7.0](https://code.google.com/p/html5shiv/)
+	- [jQuery 1.10.2](http://jquery.com)
+	- [Respond 1.4.2](https://github.com/scottjehl/Respond)
+	- [EchoJS 1.5.0](https://github.com/toddmotto/echo)
 - Pre setup composer packages
-	- Laravel 4.1
-	- Way/Generators dev-master
+	- [Laravel 4.1](http://laravel.com/)
+	- [Way/Generators dev-master](https://github.com/JeffreyWay/Laravel-4-Generators)
 
 ----
 
