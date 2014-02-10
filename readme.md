@@ -36,11 +36,11 @@ This package will not include example files or pre made assets. It will only con
 ### 1) Downloading
 #### 1.1) Clone the Repository
 	
-	git clone http://github.com/jspekken/laravel-boilerplate your-folder
+	git clone http://github.com/krafthaus/laravel-starter your-folder
 
 #### 1.2) Download the Repository
 
-	https://github.com/jspekken/laravel-boilerplate/archive/master.zip
+	https://github.com/krafthaus/laravel-starter/archive/master.zip
 
 -----
 
