@@ -78,3 +78,17 @@ Route::filter('csrf', function()
 		throw new Illuminate\Session\TokenMismatchException;
 	}
 });
+
+/**
+ * Cache Filter.
+ * http://markvaneijk.com/caching-routes-using-filters-in-laravel-4
+ */
+Route::filter('cache', function ($route, $request, $response = null) {
+	$key = 'route-' . md5(Request::url());
+
+	if (is_null($response) && Cache::has($key)) {
+		return Cache::get($key);
+	} elseif (!is_null($response) && !Cache::has($key)) {
+		Cache::put($key, $response->getContent(), 60);
+	}
+});

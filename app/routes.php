@@ -12,8 +12,10 @@
 */
 
 Route::get('/', [
-	'as'   => 'homepage',
-	'uses' => 'HomeController@index'
+	'as'     => 'homepage',
+	'before' => 'cache',
+	'after'  => 'cache',
+	'uses'   => 'HomeController@index'
 ]);
 
 // ...
