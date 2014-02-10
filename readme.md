@@ -1,6 +1,6 @@
-## Laravel 4 - Boilerplate
+## Laravel 4 - Starter
 
-This is a Laravel 4 bootstrap package and it will help setup your new project quick and easy with Laravel 4.
+This is a Laravel 4 starter package and it will help setup your new project quick and easy with Laravel 4.
 
 This package will not include example files or pre made assets. It will only contain folders, composer packages and configuration settings widly used to setup your project fast and will not stand in your way!
 
