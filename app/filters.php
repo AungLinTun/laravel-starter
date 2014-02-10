@@ -89,6 +89,17 @@ Route::filter('cache', function ($route, $request, $response = null) {
 	if (is_null($response) && Cache::has($key)) {
 		return Cache::get($key);
 	} elseif (!is_null($response) && !Cache::has($key)) {
+		if($response instanceof Illuminate\Http\Response) {
+			$output = $response->getOriginalContent();
+			// Clean comments
+			$output = preg_replace('/<!--([^\[|(<!)].*)/', '', $output);
+			$output = preg_replace('/(?<!\S)\/\/\s*[^\r\n]*/', '', $output);
+			// Clean Whitespace
+			$output = preg_replace('/\s{2,}/', '', $output);
+			$output = preg_replace('/(\r?\n)/', '', $output);
+			$response->setContent($output);
+		}
+
 		Cache::put($key, $response->getContent(), 60);
 	}
 });
