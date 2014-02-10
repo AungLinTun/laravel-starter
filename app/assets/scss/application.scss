@@ -16,7 +16,10 @@
 /**
  * Mixins
  */
-@import "mixins/position";
+@import "mixins/addons/hide-text";
+@import "mixins/addons/position";
+@import "mixins/addons/size";
+@import "mixins/css3/inline-block";
 
 // Modules imports
 @import "modules/body";
