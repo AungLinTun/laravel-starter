@@ -7,7 +7,7 @@
 		"font-awesome": "4.0.3",
 		"html5shiv": "3.7.0",
 		"respond": "1.4.2",
-		"fastclick": "0.6.10",
+		"fastclick": "0.6.11",
 		"echojs": "1.5.0"
 	},
 	"resolutions": {
