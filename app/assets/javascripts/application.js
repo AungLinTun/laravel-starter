@@ -19,6 +19,9 @@
 		offset:   100,
 		throttle: 250
 	});
+	
+	// Foundation
+	$(document).foundation();
 
 	// ...
 
