@@ -19,3 +19,29 @@ Route::get('/', [
 ]);
 
 // ...
+
+// Admin routes
+Route::group(['prefix' => 'admin'], function () {
+
+	// Protected routes
+	Route::group(['before' => 'auth'], function () {
+		Route::get('/', [
+			'as'   => 'admin.homepage',
+			'uses' => 'HomeController@index'
+		]);
+
+		// Protected routes
+		// ...
+		
+	});
+
+	Route::resource('sessions', 'Admin\SessionsController', [
+		'only' => ['create', 'store', 'destroy']
+	]);
+
+	Route::get('sessions/destroy', [
+		'as'   => 'sessions.destroy',
+		'uses' => 'SessionsController@destroy'
+	]);
+
+});
