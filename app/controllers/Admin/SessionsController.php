@@ -7,6 +7,7 @@ use View;
 use Validator;
 use Redirect;
 use Auth;
+use Input;
 
 class SessionsController extends BaseController
 {
