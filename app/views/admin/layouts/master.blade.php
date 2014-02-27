@@ -21,8 +21,29 @@
 	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
-	<header>
-		<!-- ... -->
+	<header class="contain-to-grid">
+		<nav class="top-bar" data-topbar>
+			<ul class="title-area">
+				<li class="name">
+					<h1><a href="#">Admin</a></h1>
+				</li>
+				<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+			</ul>
+
+			<section class="top-bar-section">
+
+				<ul class="right">
+					@if (Auth::check())
+						<li><a href="{{ route('admin.sessions.destroy') }}">Sign-out</a></li>
+					@endif
+				</ul>
+
+				<ul class="left">
+					<!-- ... -->
+				</ul>
+
+			</section>
+		</nav>
 	</header>
 	
 	@yield('content')
