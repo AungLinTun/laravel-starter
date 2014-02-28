@@ -64,7 +64,7 @@ module.exports = function (grunt) {
 
 			vendor: {
 				files: {
-					'public/javascripts/jquery-1.10.2.min.js': 'bower_components/jquery/jquery.js',
+					'public/javascripts/jquery-1.11.0.min.js': 'bower_components/jquery/dist/jquery.js',
 					'public/javascripts/vendor.min.js': [
 						'bower_components/foundation/js/vendor/custom.modernizr.js',
 						'bower_components/foundation/js/foundation.js',
